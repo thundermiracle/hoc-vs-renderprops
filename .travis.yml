@@ -7,7 +7,7 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_GH
   # keep-history: true
-  before_script: "yarn export"
+  script: "yarn export"
   local-dir: ./.statichtml
   on:
     branch: master
