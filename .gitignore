@@ -5,5 +5,5 @@ npm-debug.log
 
 # dependencies
 node_modules/
-yarn.lock
+# yarn.lock
 

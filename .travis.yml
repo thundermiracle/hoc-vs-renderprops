@@ -1,0 +1,17 @@
+language: javascript
+node_js:
+  - "8"
+
+branches:
+  only:
+    - master
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_GH
+  # keep-history: true
+  before_script: "yarn export"
+  local-dir: ./statichtml
+  on:
+    branch: master
