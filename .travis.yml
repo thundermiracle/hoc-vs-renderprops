@@ -4,6 +4,7 @@ node_js:
 
 before_deploy: 
   - yarn export
+  - echo '' > ./.statichtml/.nojekyll
 deploy:
   provider: pages
   skip-cleanup: true

@@ -7,6 +7,7 @@ process.env.PKG_NAME = process.env.npm_package_name;
 
 module.exports = {
   exportPathMap: () => makeNextExportPathMap(PATH_MAP),
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/hoc-vs-renderprops' : '',
   webpack: (config, { dev }) => {
     config.plugins.push(new EnvironmentPlugin(['PKG_VERSION', 'PKG_NAME']));
     return config;
