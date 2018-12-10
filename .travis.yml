@@ -2,12 +2,13 @@ language: node_js
 node_js:
   - "8"
 
+before_deploy: 
+  - yarn export
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_GH
   # keep-history: true
-  script: "yarn export"
   local-dir: ./.statichtml
   on:
     branch: master
