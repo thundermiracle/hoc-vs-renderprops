@@ -9,7 +9,7 @@ import LayoutDrawerMenu from './LayoutDrawerMenu';
 
 const Layout = (props) => {
   const { title, children } = props;
-  
+
   const layoutdrawerHeader = (
     <LayoutDrawerHeader
       packageInfo={{
