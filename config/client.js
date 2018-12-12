@@ -1,5 +1,6 @@
 const config = {
   google: 'UA-xxxxxxxxx-1',
+  subfolder: true,
 };
 
-export default config;
+module.exports = config;
