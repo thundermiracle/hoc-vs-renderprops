@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{870:function(e,n,t){__NEXT_REGISTER_PAGE("/",function(){return e.exports=t(871),{page:e.exports.default}})},871:function(e,n,t){"use strict";t.r(n);var u=t(0),a=t.n(u);n.default=function(){return a.a.createElement("div",null,"Please select a menu.")}}},[[870,1,0]]]);
